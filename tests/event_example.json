@@ -1,0 +1,19 @@
+{
+	"Records": [{
+		"EventSource": "aws:sns",
+		"EventVersion": "1.0",
+		"EventSubscriptionArn": "arn:aws:sns:us-east-1:277754835857:aws-controltower-lll-security-topic:952398da-45b7-4545-9fcc-bd6285cf23f6",
+		"Sns": {
+			"Type": "Notification",
+			"MessageId": "12e77e59-38f9-51ef-841a-2770c1f3ea2e",
+			"TopicArn": "arn:aws:sns:us-east-1:277754835857:aws-controltower-lll-security-topic",
+			"Message": "{\"version\":\"0\",\"id\":\"1f6af81c-0a6a-b5d9-2b76-dcf7aad0e373\",\"detail-type\":\"Config Rules Compliance Change\",\"source\":\"aws.config\",\"account\":\"277754835857\",\"time\":\"2021-05-27T19:45:13Z\",\"region\":\"us-east-1\",\"resources\":[],\"detail\":{\"resourceId\":\"mwa-controltower-lll-security-topic-noncomplicant-notifications\",\"awsRegion\":\"us-east-1\",\"awsAccountId\":\"277754835857\",\"configRuleName\":\"RequiredTags02-conformance-pack-5aaszlher\",\"recordVersion\":\"1.0\",\"configRuleARN\":\"arn:aws:config:us-east-1:277754835857:config-rule/aws-service-rule/config-conforms.amazonaws.com/config-rule-3r83rx\",\"messageType\":\"ComplianceChangeNotification\",\"newEvaluationResult\":{\"evaluationResultIdentifier\":{\"evaluationResultQualifier\":{\"configRuleName\":\"RequiredTags02-conformance-pack-5aaszlher\",\"resourceType\":\"AWS::S3::Bucket\",\"resourceId\":\"mwa-controltower-lll-security-topic-noncomplicant-notifications\"},\"orderingTimestamp\":\"2021-05-27T19:45:01.476Z\"},\"complianceType\":\"NON_COMPLIANT\",\"resultRecordedTime\":\"2021-05-27T19:45:12.678Z\",\"configRuleInvokedTime\":\"2021-05-27T19:45:12.519Z\"},\"notificationCreationTime\":\"2021-05-27T19:45:13.231Z\",\"resourceType\":\"AWS::S3::Bucket\"}}",
+			"Timestamp": "2021-05-27T19:45:14.695Z",
+			"SignatureVersion": "1",
+			"Signature": "G/oEqIqUk3JNOVl5jQ01jGjQmum5JK4L6y/ZxtyZSZJk6zfDcutqGloxdjYlqcKHbuiSFO4Cc9/dKIUBhfWyfCrohV0INApgxuccCcgmdoZiUljwlMh5pbtYCxZhsZKQnkPs6DAjdCF5i3yW4gC1N174PRdrVzt3qswbJU62Jt5OjaJh4mRjT4SuMdDihamnDcOFzHOgIRSx6lT1ICqvJlBDAEmc0RMoqHP1bxozRNidgAqeph9blLL2J4CWlgIzzhdUVK9nPx6enJQuiUZXmJqqPhmABn4n+fInaStnVcUiQUnFuRK/Tf9X8jumKI5YkaWs5WkAmgWZRho+tL4CCA==",
+			"SigningCertUrl": "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-010a507c1833636cd94bdb98bd93083a.pem",
+			"UnsubscribeUrl": "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:277754835857:aws-controltower-lll-security-topic:952398da-45b7-4545-9fcc-bd6285cf23f6",
+			"MessageAttributes": {}
+		}
+	}]
+}
